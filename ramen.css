@@ -1,0 +1,288 @@
+body{
+margin: 1rem 0.4rem  0 0.7rem;
+}
+/*HEADER****/
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+}
+
+.header button{
+    margin-top: 0.6rem;
+    padding: 0.5rem 1.2rem; 
+    background-color: #f59e0b;
+    color: #fff;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; ;
+    border: none;
+    font-weight: 600;
+    font-size: medium;
+
+}
+/*Links****/
+.nav-links{
+    margin: 0.7rem;
+    display: flex;
+    justify-content: space-around;
+}
+header .link{
+    padding: 0.2rem 0.6rem;
+}
+ header #lin{
+    border-radius: 3px;
+ background-color: rgb(205, 210, 210);
+}
+.link a{
+    text-decoration: none;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+     color:black;
+}
+
+/*BLOCK1****/
+.img1{
+    margin-top: 2rem;
+    width:95%;
+
+}
+.img1 img{
+    width: 100%;
+}
+/*BLOK1 H1****/
+.jap{
+    margin: 0 0.3rem;
+    margin-top: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    font-weight: 700;
+    line-height: 37px;
+    font-size: 37px;
+    width:90%;
+    margin-bottom: 2rem;
+}
+/*BLOCK1 P****/
+.noodle{
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    color: #737e94;
+    line-height: 1.5rem;
+    width: 20rem;
+}
+/*ORDER NOW BUTTON****/
+.content1 button{
+    margin-top: 0.5rem;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    color: #fff;
+    background-color: #ed461d;
+    padding:0.7rem ;
+    font-size: large;
+    border: none;
+}
+/*BLOCK2***/
+.block2{
+    margin-top: 4rem;
+    margin-right: 0.5rem;
+    width: 89%;
+}
+/*IMG+ CONTENT DIV****/
+.rameno{
+    display: flex;
+    margin-right: 1rem;
+}
+
+/*BLOCK2 IMG DIV****/
+.ramen1{
+    width: 10rem;
+    margin-right: 0.5rem;
+}
+/*BLOCK2 IMG ****/
+.ramen1 img{
+    width: 100%;
+}
+.toma{
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 24px;
+    color: #000000;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+/*BLOCK2 P****/
+.rameno .nodle{
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    color: #737e94;
+    width: 15rem;
+    line-height: 18px;
+    margin-top:0 ;
+   
+}
+
+.price{
+    color: #f9bd4a;
+}
+.dash{
+    margin-left: 1rem;
+}
+.con1{
+    width: 11rem;
+    margin-right: 1rem;
+}
+.con1 p{
+margin-bottom: 0;
+}
+.buy{
+    margin-top: 0;
+    display:flex;
+    height: 5rem;
+   width: 15rem;
+}
+/*BLOCK2 BUY BUTTON********/
+.buy button{
+    background-color: #f6a10b;
+    border: none;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    padding: 0.4rem 1rem;
+    color:#fff;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+/* CHECK OUT MOTE DISHES DIV*******/
+.check{
+    width: 100%;
+    display: flex;
+    border-bottom:1px solid black;
+}
+.che{
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    font-weight: 600;
+    color: hsl(220, 9%, 46%);
+
+}
+
+.ch{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.5rem;
+}
+.arrow{
+    margin-top: 0.8rem;
+    margin-left: 0.4rem;
+}
+/*CONTACT US DIV*******/
+.btn{
+    margin: 1.5rem 0;
+    width: 100%;
+}
+/*CONTACT US BUTTON*******/
+.contact{
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    background-color: #000000;
+    width: 100%;
+    height: 3rem;
+  
+}
+.header2{
+    display: none;
+}
+
+
+
+/*DESKTOP FUCKING VIEW*******/
+@media (min-width: 768px) {
+    body{
+        margin: 0 3rem;
+    }
+    header{
+
+        display: none;
+    }
+    /*HEADER*******/
+    .header2{
+        margin: 0 4rem;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1.2rem;
+    }
+    /*LINKS DIV*******/
+    .nav-links{
+        width: 45%;
+    }
+      /*LOGIN HEADER BUTTON*******/
+    .header2 button{
+        margin-top: 0.6rem;
+        padding: 0.5rem 1.2rem; 
+        background-color: #f59e0b;
+        color: #fff;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; ;
+        border: none;
+        font-weight: 600;
+        font-size: medium;
+    
+    }
+      /*HEADER LINKS*******/
+    .header2 .link{
+       padding: 0.1rem 0.5rem ;
+        height: 1.7rem;
+    }
+      /*HOMELINK *******/
+     .header2 #lin{
+        background-color: rgb(205, 210, 210);
+        border-radius: 3px;
+    }
+      /*BLOCK1 DIV*******/
+    .block1{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+     .content1{
+        width: 80%;
+    }
+ /*BLOCK1 H1 *******/
+.jap{
+    margin-top: 2.7rem;
+font-size: 60px;
+line-height: 60px;
+}
+ /*BLOCK1 P *******/
+.noodle{
+    width: 27rem;
+}
+ /*BLOCK2 *******/
+.block2{
+    display: flex;
+}
+ /*BLOCK2 TEXTS *******/
+.con1{
+    margin-left: 1rem;
+}
+ /*BLOCK2  P*******/
+.con1 .nodle{
+    width: 12rem;
+}
+ /*BLOCK2 IMG*******/
+.mag{
+  display: flex;
+  justify-content:flex-end;
+}
+ /*CONTACT US BUTTON *******/
+.contact{
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
